@@ -57,6 +57,7 @@ class Program
         {
           Console.WriteLine("El número NO existe en el arreglo.");
         }
+        // Sección 2: matriz de 3 x 3 y cálculo de suma
         // Matriz de 3 x 3
         int[,] matriz = new int[3, 3];
 
@@ -93,7 +94,8 @@ class Program
        }
 
         Console.WriteLine("\nSuma total: " + suma);
-
+        
+        // Sección 3: operaciones con listas
         List<int> lista = new List<int>();
         Console.Write("\nIngrese un número para agregar a la lista: ");
         int nuevoNumero = int.Parse(Console.ReadLine());
