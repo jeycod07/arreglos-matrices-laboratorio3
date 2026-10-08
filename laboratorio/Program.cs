@@ -57,8 +57,9 @@ class Program
         {
           Console.WriteLine("El número NO existe en el arreglo.");
         }
-        // Sección 2: matriz de 3 x 3 y cálculo de suma
+        
         // Matriz de 3 x 3
+        // Sección 4: matriz 3x3 y cálculo de suma
         int[,] matriz = new int[3, 3];
 
         Console.WriteLine("\n=== MATRIZ 3 X 3 ===");
@@ -94,7 +95,7 @@ class Program
        }
 
         Console.WriteLine("\nSuma total: " + suma);
-        
+
         // Sección 3: operaciones con listas
         List<int> lista = new List<int>();
         Console.Write("\nIngrese un número para agregar a la lista: ");
@@ -142,6 +143,8 @@ class Program
        {
          Console.WriteLine("Posicion " + i + ": " + lista[i]);
        }
+
+       // Sección 4: ordenamiento burbuja y selección
        int[] listaOrdenar = { 5, 2, 9, 1, 7 };
        Console.WriteLine("\n=== ANTES DE ORDENAR ===");
 
@@ -170,6 +173,7 @@ class Program
          Console.Write(listaOrdenar[i] + " ");
        }
        Console.WriteLine();
+
        int[] listaSeleccion = { 5, 2, 9, 1, 7 };
        for (int i = 0; i < listaSeleccion.Length - 1; i++)
        {
