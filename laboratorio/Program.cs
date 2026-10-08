@@ -144,7 +144,7 @@ class Program
          Console.WriteLine("Posicion " + i + ": " + lista[i]);
        }
 
-       // Sección 4: ordenamiento burbuja y selección
+       // Sección 5: ordenamiento burbuja y selección
        int[] listaOrdenar = { 5, 2, 9, 1, 7 };
        Console.WriteLine("\n=== ANTES DE ORDENAR ===");
 
