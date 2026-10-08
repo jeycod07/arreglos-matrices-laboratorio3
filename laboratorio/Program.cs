@@ -3,6 +3,7 @@
 class Program
 {
     static void Main()
+    // Sección 1: arreglo de 10 números
     {
         // Crear un arreglo de 10 números enteros
         int[] numeros = new int[10];
